@@ -5,7 +5,9 @@ export default class Avatar extends Component {
   render() {
     return (
       <div className="ava">
-        <img src={image} alt=""/>
+        <div className="ava_centerer">
+          <img src={image} alt=""/>
+        </div>
       </div>
     );
   }

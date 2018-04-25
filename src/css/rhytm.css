@@ -18,6 +18,12 @@
   font-size: 16px;
   line-height: 32px;
 }
+.fs_16_low {
+  padding: 0 0 7px 0;
+  margin: -7px 0 0 0;
+  font-size: 16px;
+  line-height: 32px;
+}
 .fs_18 {
   margin: 0;
   padding: 24px 0 8px 0;

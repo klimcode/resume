@@ -38,8 +38,7 @@ body {
   min-height: 100%;
   min-width: 320px;
 }
-.app__header {
-}
+/* .app__header {} */
 .app__body {
   flex: 1 0 auto;
 }
@@ -54,12 +53,65 @@ body {
 /* COMMON STYLES */
 h1, h2, h3 { font-weight: 400; }
 h1 { text-align: center;}
+a {
+  color: #444;
+  font-weight: bold;
+}
+a:visited { color: #569; }
 
-.app { background: #ddd; }
-
+.app {
+  padding-bottom: 64px;
+  background: #ddd;
+}
+.app__body .app__container {
+  background: #fff;
+}
+.app__container {
+  padding: 0 16px;
+}
 .ava {
+  position: relative;
+  overflow: hidden;
+  height: 320px;
+  margin: 0 -16px;
   background: #020202;
   text-align: center;
 }
+.ava_centerer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  top: 0;
+  width: 0;
+}
+.ava img {
+  position: absolute;
+  left: -200px;
+  top: 0;
+}
 
+/* .projects__content {} */
 
+.app__footer .app__container {
+  background: #fff;
+}
+.contacts {
+  padding-bottom: 64px;
+}
+.contacts__content {
+  text-align: center;
+}
+.contacts__item {
+  display: inline-block;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .app__container {
+    padding: 0 64px;
+  }
+  .ava {
+    margin: 0 -64px;
+  }
+}
