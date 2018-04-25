@@ -5,7 +5,10 @@ export default class Body extends Component {
     return (
       <div className="app__body">
         <div className="app__container">
-          Body
+          {this.props.children}
+        </div>
+        <div className="app__container">
+          Projects
         </div>
       </div>
     );
