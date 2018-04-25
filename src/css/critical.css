@@ -54,10 +54,13 @@ body {
 h1, h2, h3 { font-weight: 400; }
 h1 { text-align: center;}
 a {
-  color: #444;
+  color: #569;
   font-weight: bold;
 }
-a:visited { color: #569; }
+a:visited {
+  color: #444;
+  font-weight: normal;
+}
 
 .app {
   padding-bottom: 64px;
@@ -90,7 +93,9 @@ a:visited { color: #569; }
   top: 0;
 }
 
-/* .projects__content {} */
+.projects__content > p {
+  padding-top: 32px;
+}
 
 .app__footer .app__container {
   background: #fff;
@@ -113,5 +118,8 @@ a:visited { color: #569; }
   }
   .ava {
     margin: 0 -64px;
+  }
+  .projects__content > p {
+    padding-top: 0;
   }
 }
