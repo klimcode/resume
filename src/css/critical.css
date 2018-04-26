@@ -5,8 +5,9 @@
 html {
   height: 100%;
   color: #222;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'opensans', sans-serif;
   font-size: 16px;
+  background: #ddd;
 }
 body {
   height: 100%;
@@ -14,21 +15,18 @@ body {
 #root {
   height: 100%;
 }
-.root-notifications > * {
-  display: block;
-  margin: 0;
-  padding: 16px;
-  background: #ffa;
-  text-align: center;
-  line-height: 2;
-}
-::-moz-selection {
+::-moz-selection, ::selection {
   background: #b3d4fc;
-  text-shadow: none;
 }
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
+h1, h2, h3 { font-weight: 400; }
+h1 { text-align: center;}
+a {
+  color: #569;
+  font-weight: bold;
+}
+a:visited {
+  color: #444;
+  font-weight: normal;
 }
 
 /* LAYOUT */
@@ -50,18 +48,7 @@ body {
   max-width: 800px;
 }
 
-/* COMMON STYLES */
-h1, h2, h3 { font-weight: 400; }
-h1 { text-align: center;}
-a {
-  color: #569;
-  font-weight: bold;
-}
-a:visited {
-  color: #444;
-  font-weight: normal;
-}
-
+/* STYLES FOR BLOCKS  */
 .app {
   padding-bottom: 64px;
   background: #ddd;
