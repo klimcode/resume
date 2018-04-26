@@ -11,6 +11,7 @@ export default class Contacts extends Component {
           <a className="contacts__item fs_16" href="mailto:disturh@gmail.com">disturh@gmail.com</a>
           <span className="contacts__item fs_16">Telegram: @klimcode</span>
           <br/>
+          <a className="contacts__item fs_16" href="https://github.com/klimcode">GitHub</a>
           <a className="contacts__item fs_16" href="https://www.npmjs.com/~klimcode">NPM</a>
           <a className="contacts__item fs_16" href="https://www.facebook.com/klimcode">Facebook</a>
           <a className="contacts__item fs_16" href="https://www.linkedin.com/in/klimcode/">Linkedin</a>
